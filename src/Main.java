@@ -1,9 +1,11 @@
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            int i1 = 10;
+
+        List<String> list = List.of("me", "and", "you");
+        for (String s : list) {
+            System.out.println(s);
         }
-        System.out.println();
     }
 }
